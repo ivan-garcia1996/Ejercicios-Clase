@@ -15,7 +15,7 @@ public class Ventana extends JFrame{
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("F");
+		System.out.println("F EN EL CHAT");
 		Ventana v1 = new Ventana();
 		v1.setVisible(true);
 
