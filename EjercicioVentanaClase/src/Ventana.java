@@ -8,7 +8,7 @@ public class Ventana extends JFrame{
 	private static final long serialVersionUID = 1L;
 
 	public Ventana() {
-		this.setTitle("Mi primera Ventana");
+		this.setTitle("Mi primera Ventanita");
 		this.setSize(320,240);
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 	}
