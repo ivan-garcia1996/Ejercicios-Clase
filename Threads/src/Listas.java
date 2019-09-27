@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Collections;
 
 public class Listas {
 	
-	private static List<Integer> lista = new ArrayList<Integer>();
+	private static List<Integer> lista = Collections.synchronizedList(new ArrayList<Integer>());
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
