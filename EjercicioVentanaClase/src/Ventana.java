@@ -18,7 +18,7 @@ public class Ventana extends JFrame{
 		System.out.println("F EN EL CHAT");
 		Ventana v1 = new Ventana();
 		v1.setVisible(true);
-
 	}
 
 }
+
