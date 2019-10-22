@@ -27,9 +27,11 @@ public class Ejemplo {
 			conn.close();
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
+			e.printStackTrace();
 			System.out.println("No se ha podido cargar el driver");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
+			e.printStackTrace();
 			System.out.println("No se ha podido conectar con la BD");
 		}
 	}
