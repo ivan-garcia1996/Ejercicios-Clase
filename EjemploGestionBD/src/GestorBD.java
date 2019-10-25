@@ -99,4 +99,14 @@ public class GestorBD {
 		} 
 		return usuarios;
 	}
+	
+	public void guardar(Usuario u) throws BDException {
+		try (Statement stmt = conn.createStatement()){
+			stmt.executeUpdate
+			("INSERT INTO usuario(id, nombre, apellido) VALUES ("+u.getId()+", '"+u.getNombre()+"', '"+u.getApellido()+"'");
+		}catch (SQLException e) {
+			throw new BDException("No se pudo insertar el usuario",e);
+		} 
+	}
+	
 }
